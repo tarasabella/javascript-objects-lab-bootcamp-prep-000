@@ -4,7 +4,7 @@ var recipes = { breakfast: "oatmeal"};
   return Object.assign({}, recipes, { [lunch]: 2 })
 }
  function destructivelyUpdateObjectWithKeyAndValue(recipes, lunch) {
-  recipes[lunch] =  2
+  recipes[lunch] = 2;
   return recipes;
 }
  function deleteFromObjectByKey(recipes, breakfast) {
